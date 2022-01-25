@@ -1,5 +1,6 @@
 package interoperability.data;
 
+
 import org.jetbrains.annotations.NotNull;
 
 public class CustomerJava {
@@ -16,7 +17,8 @@ public class CustomerJava {
      * when using this code in java we can be sure that this fun will return a non-null value
      * @return non null String
      */
-public @NotNull String neverBeNull(){
+public @NotNull
+String neverBeNull(){
         return "non null value";
     }
     public  String canBeNull(){
